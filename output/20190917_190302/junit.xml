@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190917_190302" timestamp="2019-09-17T19:03:02" time="38.151" tests="18" errors="1">
+  <testsuite id="1" name="Makemytrip" package="Makemytrip" hostname="ATMECSINDT-076" timestamp="2019-09-17T19:03:04" time="34.949" tests="18" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-076" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Anne.Sivakumar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Makemytrip.xlsx" />
+      <property name="Logs" value="C:\projects\Makemytrip\output\20190917_190302\logs\nexial-20190917_190302.log" />
+      <property name="Data File" value="Makemytrip.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx" />
+    </properties>
+    <testcase id="Flight Booking" name="Flight Booking" classname="Scenario" timestamp="2019-09-17T19:03:06" time="32.977">
+      <failure type="failure found in test activity" message="1 of 18 FAILED. Check C:\projects\Makemytrip\output\20190917_190302\Makemytrip.20190917_190304.001.xlsx for execution result, C:\projects\Makemytrip\output\20190917_190302\logs\nexial-20190917_190302.log for execution logs" />
+      <system-out>Total : 18
+Passed: 17
+Failed: 1
+Output: C:\projects\Makemytrip\output\20190917_190302\Makemytrip.20190917_190304.001.xlsx
+Logs  : C:\projects\Makemytrip\output\20190917_190302\logs\nexial-20190917_190302.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

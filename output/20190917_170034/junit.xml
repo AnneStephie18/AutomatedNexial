@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190917_170034" timestamp="2019-09-17T17:00:34" time="18.191" tests="1" errors="0">
+  <testsuite id="1" name="Makemytrip" package="Makemytrip" hostname="ATMECSINDT-076" timestamp="2019-09-17T17:00:36" time="13.843" tests="1" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-076" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Anne.Sivakumar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Makemytrip.xlsx" />
+      <property name="Logs" value="C:\projects\Makemytrip\output\20190917_170034\logs\nexial-20190917_170034.log" />
+      <property name="Data File" value="Makemytrip.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx" />
+    </properties>
+    <testcase id="Flight Booking" name="Flight Booking" classname="Scenario" timestamp="2019-09-17T17:00:38" time="11.506">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\Makemytrip\output\20190917_170034\Makemytrip.20190917_170036.001.xlsx
+Logs  : C:\projects\Makemytrip\output\20190917_170034\logs\nexial-20190917_170034.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

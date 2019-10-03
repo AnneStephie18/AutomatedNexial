@@ -1,0 +1,94 @@
+2019-09-17 17:52:02,752|I|Thread-1|(DELAYED) nexial-core dev_0636 starting up...
+2019-09-17 17:52:02,758|I|Thread-1|(DELAYED) data file resolved as C:\Users\ANNE~1.SIV\AppData\Local\Temp\hyzHu\Makemytrip.data.xlsx
+2019-09-17 17:52:02,758|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-17 17:52:02,758|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-17 17:52:02,758|I|Thread-1|(DELAYED) [20190917_175202] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] resolve RUN ID as 20190917_175202
+2019-09-17 17:52:02,758|I|Thread-1|(DELAYED) [20190917_175202] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] new thread started
+2019-09-17 17:52:02,758|I|Thread-1|No predefined nexial-setup found
+2019-09-17 17:52:02,841|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 17:52:02,842|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 17:52:02,843|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 17:52:02,875|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-17 17:52:03,952|I|Thread-1|[20190917_175202] executing C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx with 1 iteration(s)
+2019-09-17 17:52:03,958|I|Thread-1|[20190917_175202] create directory C:\projects\Makemytrip\output\20190917_175202\captures
+2019-09-17 17:52:03,962|I|Thread-1|[20190917_175202] create directory C:\projects\Makemytrip\output\20190917_175202\logs
+2019-09-17 17:52:04,714|I|Thread-1|[20190917_175202] merging test data to tmp file C:\projects\Makemytrip\output\20190917_175202\Makemytrip.20190917_175203.001.xlsx
+2019-09-17 17:52:04,716|I|Thread-1|refetching data from C:\projects\Makemytrip\artifact\data\Makemytrip.data.xlsx
+2019-09-17 17:52:05,064|I|Thread-1|[20190917_175202] test script and test data merged to C:\projects\Makemytrip\output\20190917_175202\Makemytrip.20190917_175203.001.xlsx
+2019-09-17 17:52:05,990|I|Thread-1|STARTS
+2019-09-17 17:52:06,016|I|Thread-1|Makemytrip.20190917_175203.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-17 17:52:06,026|I|Thread-1|Makemytrip.20190917_175203.001|Scenario - executing test scenario
+2019-09-17 17:52:06,029|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking - executing activity
+2019-09-17 17:52:06,634|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  5|web.open(url) - executing open(url)(${URL})
+2019-09-17 17:52:06,647|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-17 17:52:06,657|I|Thread-1|init chrome
+2019-09-17 17:52:10,373|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-17 17:52:10,413|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-17 17:52:10,437|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-17 17:52:14,426|I|Thread-1|current browser window handle:CDwindow-284FFF1A950F992F251665651B09C544
+2019-09-17 17:52:14,835|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  5|web.open(url) - PASS opened URL https://www.makemytrip.com/
+2019-09-17 17:52:15,438|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  6|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from.box}, ${from})
+2019-09-17 17:52:16,392|E|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  6|web.typeKeys(locator,valu - FAIL EXECUTING COMMAND: web.typeKeys(locator,value)('//input[@class='react-autosuggest__input react-autosuggest__input--open']', '')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='react-autosuggest__input react-autosuggest__input--open']"}   (Session info: chrome=77.0.3865.75)...
+2019-09-17 17:52:17,009|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  7|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from.box}, {DOWN}{ENTER})
+2019-09-17 17:52:18,035|E|Thread-1|Makemytrip.20190917_175203.001|Scenario|Flight Booking|#  7|web.typeKeys(locator,valu - FAIL EXECUTING COMMAND: web.typeKeys(locator,value)('//input[@class='react-autosuggest__input react-autosuggest__input--open']', '{DOWN}{ENTER}')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='react-autosuggest__input react-autosuggest__input--open']"}   (Session info: chrome=77.0.3865.75)...
+2019-09-17 17:52:18,047|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|close - executing activity
+2019-09-17 17:52:18,649|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|close|#  8|web.close() - executing close()()
+2019-09-17 17:52:23,863|I|Thread-1|Shutting down 'chrome' webdriver...
+2019-09-17 17:52:27,488|I|Thread-1|Makemytrip.20190917_175203.001|Scenario|close|#  8|web.close() - PASS closed last tab/window
+2019-09-17 17:52:27,632|I|Thread-1|[Makemytrip.20190917_175203.001|Scenario] saving test scenario
+2019-09-17 17:52:27,790|I|Thread-1|[20190917_175202] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Makemytrip\output\20190917_175202\Makemytrip.20190917_175203.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 21763 ms
+» Test Steps:     4
+» Error(s):       2
+
+
+
+2019-09-17 17:52:28,513|I|Thread-1|[20190917_175202] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 25983 ms
+» Iterations:     [1] total 1
+» Test Steps:     4
+» Passed:         2
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\Makemytrip\output\20190917_175202\Makemytrip.20190917_175203.001.xlsx
+
+
+
+2019-09-17 17:52:28,591|I|main|[20190917_175202] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] now completed
+2019-09-17 17:52:28,593|I|main|[20190917_175202] all execution thread(s) have terminated
+2019-09-17 17:52:28,593|I|main|[20190917_175202] test run completed in about 26 seconds
+2019-09-17 17:52:28,693|I|main|No predefined nexial-setup found
+2019-09-17 17:52:28,749|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 17:52:28,750|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 17:52:28,752|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 17:52:28,754|I|main|generating HTML output for this execution to C:\projects\Makemytrip\output\20190917_175202\execution-output.html
+2019-09-17 17:52:29,596|I|main|generating JUnit XML output for this execution to C:\projects\Makemytrip\output\20190917_175202\junit.xml
+2019-09-17 17:52:29,641|I|main|generated JUnit report for this execution: C:\projects\Makemytrip\output\20190917_175202\junit.xml
+2019-09-17 17:52:29,641|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-17 17:52:29,642|I|main|skipped email notification as configured
+2019-09-17 17:52:29,644|I|main|exiting Nexial...
+2019-09-17 17:52:29,645|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 26 sec.
+| » Test Steps....: 4
+| » Passed........: 2
+| » Failed........: 2
+| » Success Rate..: 50.00%
+\----------------------------------------------------------nexial-core dev_0636-
+
+2019-09-17 17:52:29,646|E|main|failure found; success rate is 50.00%
+2019-09-17 17:52:29,648|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Makemytrip\output\20190917_175202
+NEXIAL_EXECUTION_HTML: C:\projects\Makemytrip\output\20190917_175202\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Makemytrip\output\20190917_175202\junit.xml
+NEXIAL_SUCCESS_RATE:   50.00%
+NEXIAL_EXIT_STATUS:    -13

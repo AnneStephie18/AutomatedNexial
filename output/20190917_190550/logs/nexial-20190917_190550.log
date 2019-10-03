@@ -1,0 +1,90 @@
+2019-09-17 19:05:50,397|I|Thread-1|(DELAYED) nexial-core dev_0636 starting up...
+2019-09-17 19:05:50,403|I|Thread-1|(DELAYED) data file resolved as C:\Users\ANNE~1.SIV\AppData\Local\Temp\bqzKs\Makemytrip.data.xlsx
+2019-09-17 19:05:50,403|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-17 19:05:50,403|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-17 19:05:50,403|I|Thread-1|(DELAYED) [20190917_190550] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] resolve RUN ID as 20190917_190550
+2019-09-17 19:05:50,403|I|Thread-1|(DELAYED) [20190917_190550] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] new thread started
+2019-09-17 19:05:50,404|I|Thread-1|No predefined nexial-setup found
+2019-09-17 19:05:50,495|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 19:05:50,496|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 19:05:50,497|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 19:05:50,530|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-17 19:05:51,739|I|Thread-1|[20190917_190550] executing C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx with 1 iteration(s)
+2019-09-17 19:05:51,746|I|Thread-1|[20190917_190550] create directory C:\projects\Makemytrip\output\20190917_190550\captures
+2019-09-17 19:05:51,747|I|Thread-1|[20190917_190550] create directory C:\projects\Makemytrip\output\20190917_190550\logs
+2019-09-17 19:05:52,807|I|Thread-1|[20190917_190550] merging test data to tmp file C:\projects\Makemytrip\output\20190917_190550\Makemytrip.20190917_190551.001.xlsx
+2019-09-17 19:05:52,809|I|Thread-1|refetching data from C:\projects\Makemytrip\artifact\data\Makemytrip.data.xlsx
+2019-09-17 19:05:53,247|I|Thread-1|[20190917_190550] test script and test data merged to C:\projects\Makemytrip\output\20190917_190550\Makemytrip.20190917_190551.001.xlsx
+2019-09-17 19:05:54,335|I|Thread-1|STARTS
+2019-09-17 19:05:54,373|I|Thread-1|Makemytrip.20190917_190551.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-17 19:05:54,385|I|Thread-1|Makemytrip.20190917_190551.001|Scenario - executing test scenario
+2019-09-17 19:05:54,387|I|Thread-1|Makemytrip.20190917_190551.001|Scenario|Flight Booking - executing activity
+2019-09-17 19:05:54,990|I|Thread-1|Makemytrip.20190917_190551.001|Scenario|Flight Booking|#  5|web.open(url) - executing open(url)(${URL})
+2019-09-17 19:05:55,003|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-17 19:05:55,016|I|Thread-1|init chrome
+2019-09-17 19:05:58,495|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-17 19:05:58,559|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-17 19:05:58,593|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-17 19:06:09,246|E|Thread-1|Makemytrip.20190917_190551.001|Scenario|Flight Booking|#  5|web.open(url) - FAIL EXECUTING COMMAND: web.open(url)('https://www.easemytrip.com/')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.75)...
+2019-09-17 19:06:09,256|I|Thread-1|Makemytrip.20190917_190551.001|Scenario|Flight Booking - [ABORT] due to failure on fail-fast command: web.open(url)
+2019-09-17 19:06:09,560|I|Thread-1|[Makemytrip.20190917_190551.001|Scenario] saving test scenario
+2019-09-17 19:06:09,892|I|Thread-1|Makemytrip.20190917_190551.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-17 19:06:09,941|I|Thread-1|[20190917_190550] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Makemytrip\output\20190917_190550\Makemytrip.20190917_190551.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15550 ms
+» Test Steps:     18
+» Error(s):       1
+
+
+
+2019-09-17 19:06:09,945|I|Thread-1|Makemytrip.20190917_190551.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-17 19:06:11,960|I|Thread-1|[20190917_190550] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 21810 ms
+» Iterations:     [1] total 1
+» Test Steps:     18
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\Makemytrip\output\20190917_190550\Makemytrip.20190917_190551.001.xlsx
+
+
+
+2019-09-17 19:06:12,128|I|main|[20190917_190550] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] now completed
+2019-09-17 19:06:12,130|I|main|[20190917_190550] all execution thread(s) have terminated
+2019-09-17 19:06:12,132|I|main|[20190917_190550] test run completed in about 22 seconds
+2019-09-17 19:06:12,419|I|main|No predefined nexial-setup found
+2019-09-17 19:06:12,489|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 19:06:12,491|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 19:06:12,493|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 19:06:12,495|I|main|generating HTML output for this execution to C:\projects\Makemytrip\output\20190917_190550\execution-output.html
+2019-09-17 19:06:13,918|I|main|generating JUnit XML output for this execution to C:\projects\Makemytrip\output\20190917_190550\junit.xml
+2019-09-17 19:06:14,002|I|main|generated JUnit report for this execution: C:\projects\Makemytrip\output\20190917_190550\junit.xml
+2019-09-17 19:06:14,003|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-17 19:06:14,005|I|main|skipped email notification as configured
+2019-09-17 19:06:14,007|I|main|exiting Nexial...
+2019-09-17 19:06:14,008|I|main|shutdown starts...
+2019-09-17 19:06:14,010|I|main|Shutting down 'chrome' webdriver...
+2019-09-17 19:06:18,018|I|main|shutdown ends...
+2019-09-17 19:06:18,024|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 22 sec.
+| » Test Steps....: 1
+| » Passed........: 0
+| » Failed........: 1
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core dev_0636-
+
+2019-09-17 19:06:18,039|E|main|failure found; success rate is 0.00%
+2019-09-17 19:06:18,046|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Makemytrip\output\20190917_190550
+NEXIAL_EXECUTION_HTML: C:\projects\Makemytrip\output\20190917_190550\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Makemytrip\output\20190917_190550\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

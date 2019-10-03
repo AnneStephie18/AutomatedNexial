@@ -1,0 +1,94 @@
+2019-09-17 18:05:00,601|I|Thread-1|(DELAYED) nexial-core dev_0636 starting up...
+2019-09-17 18:05:00,607|I|Thread-1|(DELAYED) data file resolved as C:\Users\ANNE~1.SIV\AppData\Local\Temp\fxDXs\Makemytrip.data.xlsx
+2019-09-17 18:05:00,607|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-17 18:05:00,607|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-17 18:05:00,607|I|Thread-1|(DELAYED) [20190917_180500] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] resolve RUN ID as 20190917_180500
+2019-09-17 18:05:00,607|I|Thread-1|(DELAYED) [20190917_180500] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] new thread started
+2019-09-17 18:05:00,607|I|Thread-1|No predefined nexial-setup found
+2019-09-17 18:05:00,693|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 18:05:00,694|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 18:05:00,695|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 18:05:00,728|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-17 18:05:02,001|I|Thread-1|[20190917_180500] executing C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx with 1 iteration(s)
+2019-09-17 18:05:02,007|I|Thread-1|[20190917_180500] create directory C:\projects\Makemytrip\output\20190917_180500\captures
+2019-09-17 18:05:02,009|I|Thread-1|[20190917_180500] create directory C:\projects\Makemytrip\output\20190917_180500\logs
+2019-09-17 18:05:02,928|I|Thread-1|[20190917_180500] merging test data to tmp file C:\projects\Makemytrip\output\20190917_180500\Makemytrip.20190917_180502.001.xlsx
+2019-09-17 18:05:02,930|I|Thread-1|refetching data from C:\projects\Makemytrip\artifact\data\Makemytrip.data.xlsx
+2019-09-17 18:05:03,321|I|Thread-1|[20190917_180500] test script and test data merged to C:\projects\Makemytrip\output\20190917_180500\Makemytrip.20190917_180502.001.xlsx
+2019-09-17 18:05:04,259|I|Thread-1|STARTS
+2019-09-17 18:05:04,305|I|Thread-1|Makemytrip.20190917_180502.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-17 18:05:04,318|I|Thread-1|Makemytrip.20190917_180502.001|Scenario - executing test scenario
+2019-09-17 18:05:04,320|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking - executing activity
+2019-09-17 18:05:04,924|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  5|web.open(url) - executing open(url)(${URL})
+2019-09-17 18:05:04,937|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-17 18:05:04,951|I|Thread-1|init chrome
+2019-09-17 18:05:08,448|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-17 18:05:08,518|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-17 18:05:08,550|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-17 18:05:12,288|I|Thread-1|current browser window handle:CDwindow-39D72C23B0B925F5546BA476B57BD013
+2019-09-17 18:05:12,774|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  5|web.open(url) - PASS opened URL https://www.easemytrip.com/
+2019-09-17 18:05:13,378|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  6|web.click(locator) - executing click(locator)(${loc.flight.icon})
+2019-09-17 18:05:14,261|E|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  6|web.click(locator) - FAIL No element via locator '//a[@class='active_n']'
+2019-09-17 18:05:14,864|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  7|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, ${from})
+2019-09-17 18:05:16,293|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  7|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-17 18:05:16,901|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  8|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, {DOWN}{ENTER})
+2019-09-17 18:05:17,706|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|Flight Booking|#  8|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-17 18:05:17,711|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|close - executing activity
+2019-09-17 18:05:18,317|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|close|#  9|web.close() - executing close()()
+2019-09-17 18:05:21,566|I|Thread-1|Shutting down 'chrome' webdriver...
+2019-09-17 18:05:25,137|I|Thread-1|Makemytrip.20190917_180502.001|Scenario|close|#  9|web.close() - PASS closed last tab/window
+2019-09-17 18:05:25,280|I|Thread-1|[Makemytrip.20190917_180502.001|Scenario] saving test scenario
+2019-09-17 18:05:25,484|I|Thread-1|[20190917_180500] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Makemytrip\output\20190917_180500\Makemytrip.20190917_180502.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 21166 ms
+» Test Steps:     5
+» Error(s):       1
+
+
+
+2019-09-17 18:05:26,678|I|Thread-1|[20190917_180500] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 26398 ms
+» Iterations:     [1] total 1
+» Test Steps:     5
+» Passed:         4
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\Makemytrip\output\20190917_180500\Makemytrip.20190917_180502.001.xlsx
+
+
+
+2019-09-17 18:05:27,272|I|main|[20190917_180500] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] now completed
+2019-09-17 18:05:27,276|I|main|[20190917_180500] all execution thread(s) have terminated
+2019-09-17 18:05:27,279|I|main|[20190917_180500] test run completed in about 27 seconds
+2019-09-17 18:05:27,401|I|main|No predefined nexial-setup found
+2019-09-17 18:05:27,447|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 18:05:27,449|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 18:05:27,450|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 18:05:27,452|I|main|generating HTML output for this execution to C:\projects\Makemytrip\output\20190917_180500\execution-output.html
+2019-09-17 18:05:28,284|I|main|generating JUnit XML output for this execution to C:\projects\Makemytrip\output\20190917_180500\junit.xml
+2019-09-17 18:05:28,340|I|main|generated JUnit report for this execution: C:\projects\Makemytrip\output\20190917_180500\junit.xml
+2019-09-17 18:05:28,341|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-17 18:05:28,342|I|main|skipped email notification as configured
+2019-09-17 18:05:28,344|I|main|exiting Nexial...
+2019-09-17 18:05:28,346|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 27 sec.
+| » Test Steps....: 5
+| » Passed........: 4
+| » Failed........: 1
+| » Success Rate..: 80.00%
+\----------------------------------------------------------nexial-core dev_0636-
+
+2019-09-17 18:05:28,347|E|main|failure found; success rate is 80.00%
+2019-09-17 18:05:28,349|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Makemytrip\output\20190917_180500
+NEXIAL_EXECUTION_HTML: C:\projects\Makemytrip\output\20190917_180500\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Makemytrip\output\20190917_180500\junit.xml
+NEXIAL_SUCCESS_RATE:   80.00%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190918_110522" timestamp="2019-09-18T11:05:22" time="36.110" tests="18" errors="0">
+  <testsuite id="1" name="Easemytrip" package="Easemytrip" hostname="ATMECSINDT-076" timestamp="2019-09-18T11:05:23" time="33.103" tests="18" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-076" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Anne.Sivakumar" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Easemytrip.xlsx" />
+      <property name="Logs" value="C:\projects\Easemytrip\output\20190918_110522\logs\nexial-20190918_110522.log" />
+      <property name="Data File" value="Easemytrip.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx" />
+    </properties>
+    <testcase id="Flight Booking" name="Flight Booking" classname="Scenario" timestamp="2019-09-18T11:05:25" time="31.414">
+      <system-out>Total : 18
+Passed: 18
+Failed: 0
+Output: C:\projects\Easemytrip\output\20190918_110522\Easemytrip.20190918_110524.001.xlsx
+Logs  : C:\projects\Easemytrip\output\20190918_110522\logs\nexial-20190918_110522.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

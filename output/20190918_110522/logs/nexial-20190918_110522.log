@@ -1,0 +1,139 @@
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) nexial-core dev_0636 starting up...
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) data file resolved as C:\Users\ANNE~1.SIV\AppData\Local\Temp\jwUDc\Easemytrip.data.xlsx
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) [20190918_110522] [C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx] resolve RUN ID as 20190918_110522
+2019-09-18 11:05:22,928|I|Thread-1|(DELAYED) [20190918_110522] [C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx] new thread started
+2019-09-18 11:05:22,928|I|Thread-1|No predefined nexial-setup found
+2019-09-18 11:05:23,006|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-18 11:05:23,006|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-18 11:05:23,006|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-18 11:05:23,037|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-18 11:05:23,999|I|Thread-1|[20190918_110522] executing C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx with 1 iteration(s)
+2019-09-18 11:05:24,014|I|Thread-1|[20190918_110522] create directory C:\projects\Easemytrip\output\20190918_110522\captures
+2019-09-18 11:05:24,014|I|Thread-1|[20190918_110522] create directory C:\projects\Easemytrip\output\20190918_110522\logs
+2019-09-18 11:05:24,666|I|Thread-1|[20190918_110522] merging test data to tmp file C:\projects\Easemytrip\output\20190918_110522\Easemytrip.20190918_110524.001.xlsx
+2019-09-18 11:05:24,668|I|Thread-1|refetching data from C:\projects\Easemytrip\artifact\data\Easemytrip.data.xlsx
+2019-09-18 11:05:24,956|I|Thread-1|[20190918_110522] test script and test data merged to C:\projects\Easemytrip\output\20190918_110522\Easemytrip.20190918_110524.001.xlsx
+2019-09-18 11:05:25,631|I|Thread-1|STARTS
+2019-09-18 11:05:25,677|I|Thread-1|Easemytrip.20190918_110524.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-18 11:05:25,686|I|Thread-1|Easemytrip.20190918_110524.001|Scenario - executing test scenario
+2019-09-18 11:05:25,688|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking - executing activity
+2019-09-18 11:05:26,291|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  5|web.open(url) - executing open(url)(${URL})
+2019-09-18 11:05:26,295|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-18 11:05:26,297|I|Thread-1|init chrome
+2019-09-18 11:05:30,144|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-18 11:05:30,184|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-18 11:05:30,200|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-18 11:05:33,021|I|Thread-1|current browser window handle:CDwindow-00E5121D78E3DED8FE146B74F49304DE
+2019-09-18 11:05:33,449|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  5|web.open(url) - PASS opened URL https://www.easemytrip.com/
+2019-09-18 11:05:34,057|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-18 11:05:35,266|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-18 11:05:35,867|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  7|web.assertTextContains(lo - executing assertTextContains(locator,text)(${loc.title}, ${homepage title})
+2019-09-18 11:05:35,970|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  7|web.assertTextContains(lo - PASS validated text 'Search Lowest Airfare' contains 'Search Lowest Airfare'
+2019-09-18 11:05:36,570|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  8|web.click(locator) - executing click(locator)(${loc.flight.icon})
+2019-09-18 11:05:36,654|I|Thread-1|clicking '//div[@class='left-menu']//a[contains(text(),'Flight')]'...
+2019-09-18 11:05:36,712|I|Thread-1|click target via JS, @id=
+2019-09-18 11:05:37,889|I|Thread-1|clicked -> true
+2019-09-18 11:05:37,892|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  8|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:38,496|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  9|web.assertTextContains(lo - executing assertTextContains(locator,text)(${loc.title}, ${flightpage title})
+2019-09-18 11:05:38,609|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|#  9|web.assertTextContains(lo - PASS validated text 'Cheap Air Tickets' contains 'Cheap Air Tickets'
+2019-09-18 11:05:39,214|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 10|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, ${from})
+2019-09-18 11:05:40,131|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 10|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-18 11:05:40,752|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 11|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, {DOWN}{ENTER})
+2019-09-18 11:05:41,453|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 11|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-18 11:05:42,072|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 12|web.type(locator,value) - executing type(locator,value)(${loc.to}, ${to})
+2019-09-18 11:05:42,514|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 12|web.type(locator,value) - PASS typed text at '//input[@id='Editbox13_show']'
+2019-09-18 11:05:43,119|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 13|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.to}, {DOWN}{ENTER})
+2019-09-18 11:05:43,825|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 13|web.typeKeys(locator,valu - PASS typed text at '//input[@id='Editbox13_show']'
+2019-09-18 11:05:44,447|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 14|web.click(locator) - executing click(locator)(${loc.click.date})
+2019-09-18 11:05:44,509|I|Thread-1|clicking '//input[@id='ddate']'...
+2019-09-18 11:05:44,533|I|Thread-1|click target via JS, @id=ddate
+2019-09-18 11:05:44,627|I|Thread-1|clicked -> true
+2019-09-18 11:05:44,630|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 14|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:45,266|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 15|web.click(locator) - executing click(locator)(${loc.date})
+2019-09-18 11:05:45,313|I|Thread-1|clicking '//li[@id='frth_4_24/10/2019']'...
+2019-09-18 11:05:45,344|I|Thread-1|click target via JS, @id=frth_4_24/10/2019
+2019-09-18 11:05:45,420|I|Thread-1|clicked -> true
+2019-09-18 11:05:45,422|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 15|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:46,026|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 16|web.click(locator) - executing click(locator)(${loc.search.button})
+2019-09-18 11:05:46,087|I|Thread-1|clicking '//input[@value='Search']'...
+2019-09-18 11:05:46,134|I|Thread-1|click target via JS, @id=
+2019-09-18 11:05:48,452|I|Thread-1|clicked -> true
+2019-09-18 11:05:48,455|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 16|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:49,057|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 17|web.assertElementPresent( - executing assertElementPresent(locator)(${loc.assert.searchpage})
+2019-09-18 11:05:49,117|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 17|web.assertElementPresent( - PASS EXPECTED element '//div[@class='min-ht ng-scope chk_index']' found
+2019-09-18 11:05:49,723|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 18|web.click(locator) - executing click(locator)(${loc.filter.nonstop})
+2019-09-18 11:05:51,666|I|Thread-1|clicking '//input[@id='chkNonStop']'...
+2019-09-18 11:05:51,709|I|Thread-1|click target via JS, @id=chkNonStop
+2019-09-18 11:05:51,880|I|Thread-1|clicked -> true
+2019-09-18 11:05:51,882|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 18|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:52,485|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 19|web.assertTextContains(lo - executing assertTextContains(locator,text)(${loc.assert.nonstop.textpresent}, ${filter name})
+2019-09-18 11:05:52,576|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 19|web.assertTextContains(lo - PASS validated text 'Nonstop' contains 'Nonstop'
+2019-09-18 11:05:53,180|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 20|web.assertChecked(locator - executing assertChecked(locator)(${loc.assert.nonstop.checked})
+2019-09-18 11:05:53,259|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 20|web.assertChecked(locator - PASS 
+2019-09-18 11:05:53,873|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 21|web.click(locator) - executing click(locator)(${loc.booknow.button})
+2019-09-18 11:05:53,952|I|Thread-1|clicking '(//button[@class='btn  book-bt-n'])[3]'...
+2019-09-18 11:05:53,984|I|Thread-1|click target via JS, @id=
+2019-09-18 11:05:55,938|I|Thread-1|clicked -> true
+2019-09-18 11:05:55,940|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 21|web.click(locator) - PASS click via JS event
+2019-09-18 11:05:56,543|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 22|web.assertElementPresent( - executing assertElementPresent(locator)(${loc.assert.booknow.button})
+2019-09-18 11:05:56,613|I|Thread-1|Easemytrip.20190918_110524.001|Scenario|Flight Booking|# 22|web.assertElementPresent( - PASS EXPECTED element '//div[@class='fd-h']' found
+2019-09-18 11:05:56,823|I|Thread-1|[Easemytrip.20190918_110524.001|Scenario] saving test scenario
+2019-09-18 11:05:57,011|I|Thread-1|[20190918_110522] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Easemytrip\output\20190918_110522\Easemytrip.20190918_110524.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 31332 ms
+» Test Steps:     18
+» Error(s):       0
+
+
+
+2019-09-18 11:05:58,140|I|Thread-1|[20190918_110522] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 35404 ms
+» Iterations:     [1] total 1
+» Test Steps:     18
+» Passed:         18
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\Easemytrip\output\20190918_110522\Easemytrip.20190918_110524.001.xlsx
+
+
+
+2019-09-18 11:05:58,793|I|main|[20190918_110522] [C:\projects\Easemytrip\artifact\script\Easemytrip.xlsx] now completed
+2019-09-18 11:05:58,794|I|main|[20190918_110522] all execution thread(s) have terminated
+2019-09-18 11:05:58,795|I|main|[20190918_110522] test run completed in about 36 seconds
+2019-09-18 11:05:58,956|I|main|No predefined nexial-setup found
+2019-09-18 11:05:59,035|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-18 11:05:59,035|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-18 11:05:59,035|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-18 11:05:59,035|I|main|generating HTML output for this execution to C:\projects\Easemytrip\output\20190918_110522\execution-output.html
+2019-09-18 11:05:59,919|I|main|generating JUnit XML output for this execution to C:\projects\Easemytrip\output\20190918_110522\junit.xml
+2019-09-18 11:05:59,966|I|main|generated JUnit report for this execution: C:\projects\Easemytrip\output\20190918_110522\junit.xml
+2019-09-18 11:05:59,966|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-18 11:05:59,966|I|main|skipped email notification as configured
+2019-09-18 11:05:59,966|I|main|exiting Nexial...
+2019-09-18 11:05:59,966|I|main|shutdown starts...
+2019-09-18 11:05:59,966|I|main|Shutting down 'chrome' webdriver...
+2019-09-18 11:06:03,896|I|main|shutdown ends...
+2019-09-18 11:06:03,896|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 36 sec.
+| » Test Steps....: 18
+| » Passed........: 18
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0636-
+
+2019-09-18 11:06:03,896|I|main|ALL PASSED!
+2019-09-18 11:06:03,896|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Easemytrip\output\20190918_110522
+NEXIAL_EXECUTION_HTML: C:\projects\Easemytrip\output\20190918_110522\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Easemytrip\output\20190918_110522\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

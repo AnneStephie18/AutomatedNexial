@@ -1,0 +1,128 @@
+2019-09-17 18:36:32,924|I|Thread-1|(DELAYED) nexial-core dev_0636 starting up...
+2019-09-17 18:36:32,930|I|Thread-1|(DELAYED) data file resolved as C:\Users\ANNE~1.SIV\AppData\Local\Temp\vsfMi\Makemytrip.data.xlsx
+2019-09-17 18:36:32,930|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-17 18:36:32,930|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-17 18:36:32,930|I|Thread-1|(DELAYED) [20190917_183632] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] resolve RUN ID as 20190917_183632
+2019-09-17 18:36:32,930|I|Thread-1|(DELAYED) [20190917_183632] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] new thread started
+2019-09-17 18:36:32,930|I|Thread-1|No predefined nexial-setup found
+2019-09-17 18:36:33,031|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 18:36:33,032|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 18:36:33,033|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 18:36:33,066|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-17 18:36:34,366|I|Thread-1|[20190917_183632] executing C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx with 1 iteration(s)
+2019-09-17 18:36:34,374|I|Thread-1|[20190917_183632] create directory C:\projects\Makemytrip\output\20190917_183632\captures
+2019-09-17 18:36:34,376|I|Thread-1|[20190917_183632] create directory C:\projects\Makemytrip\output\20190917_183632\logs
+2019-09-17 18:36:35,188|I|Thread-1|[20190917_183632] merging test data to tmp file C:\projects\Makemytrip\output\20190917_183632\Makemytrip.20190917_183634.001.xlsx
+2019-09-17 18:36:35,189|I|Thread-1|refetching data from C:\projects\Makemytrip\artifact\data\Makemytrip.data.xlsx
+2019-09-17 18:36:35,556|I|Thread-1|[20190917_183632] test script and test data merged to C:\projects\Makemytrip\output\20190917_183632\Makemytrip.20190917_183634.001.xlsx
+2019-09-17 18:36:36,746|I|Thread-1|STARTS
+2019-09-17 18:36:36,784|I|Thread-1|Makemytrip.20190917_183634.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-17 18:36:36,796|I|Thread-1|Makemytrip.20190917_183634.001|Scenario - executing test scenario
+2019-09-17 18:36:36,798|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking - executing activity
+2019-09-17 18:36:37,402|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  5|web.open(url) - executing open(url)(${URL})
+2019-09-17 18:36:37,406|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-17 18:36:37,408|I|Thread-1|init chrome
+2019-09-17 18:36:40,847|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-17 18:36:40,904|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-17 18:36:40,956|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-17 18:36:44,223|I|Thread-1|current browser window handle:CDwindow-5A0C24381B2BDD208003AC675DC73591
+2019-09-17 18:36:44,474|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  5|web.open(url) - PASS opened URL https://www.easemytrip.com/
+2019-09-17 18:36:45,080|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-17 18:36:46,300|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-17 18:36:46,906|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  7|web.click(locator) - executing click(locator)(${loc.flight.icon})
+2019-09-17 18:36:46,971|I|Thread-1|clicking '//div[@class='left-menu']//a[contains(text(),'Flight')]'...
+2019-09-17 18:36:47,034|I|Thread-1|click target via JS, @id=
+2019-09-17 18:36:49,430|I|Thread-1|clicked -> true
+2019-09-17 18:36:49,433|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  7|web.click(locator) - PASS click via JS event
+2019-09-17 18:36:50,037|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  8|web.assertElementByText(l - executing assertElementByText(locator,text)(${loc.homepage.title}, ${homepage title})
+2019-09-17 18:36:50,174|E|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  8|web.assertElementByText(l - FAIL No element with text 'Search Lowest Airfare' can be found.
+2019-09-17 18:36:50,783|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  9|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, ${from})
+2019-09-17 18:36:51,971|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|#  9|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-17 18:36:52,579|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 10|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.from}, {DOWN}{ENTER})
+2019-09-17 18:36:53,362|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 10|web.typeKeys(locator,valu - PASS typed text at '//input[@id='FromSector_show']'
+2019-09-17 18:36:53,966|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 11|web.type(locator,value) - executing type(locator,value)(${loc.to}, ${to})
+2019-09-17 18:36:54,686|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 11|web.type(locator,value) - PASS typed text at '//input[@id='Editbox13_show']'
+2019-09-17 18:36:55,288|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 12|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.to}, {DOWN}{ENTER})
+2019-09-17 18:36:56,094|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 12|web.typeKeys(locator,valu - PASS typed text at '//input[@id='Editbox13_show']'
+2019-09-17 18:36:56,708|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 13|web.click(locator) - executing click(locator)(${loc.click.date})
+2019-09-17 18:36:56,802|I|Thread-1|clicking '//input[@id='ddate']'...
+2019-09-17 18:36:56,896|I|Thread-1|click target via JS, @id=ddate
+2019-09-17 18:36:57,003|I|Thread-1|clicked -> true
+2019-09-17 18:36:57,005|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 13|web.click(locator) - PASS click via JS event
+2019-09-17 18:36:57,611|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 14|web.click(locator) - executing click(locator)(${loc.date})
+2019-09-17 18:36:57,672|I|Thread-1|clicking '//li[@id='frth_4_24/10/2019']'...
+2019-09-17 18:36:57,713|I|Thread-1|click target via JS, @id=frth_4_24/10/2019
+2019-09-17 18:36:57,790|I|Thread-1|clicked -> true
+2019-09-17 18:36:57,792|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 14|web.click(locator) - PASS click via JS event
+2019-09-17 18:36:58,395|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 15|web.click(locator) - executing click(locator)(${loc.search.button})
+2019-09-17 18:36:58,469|I|Thread-1|clicking '//input[@value='Search']'...
+2019-09-17 18:36:58,551|I|Thread-1|click target via JS, @id=
+2019-09-17 18:37:08,714|E|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 15|web.click(locator) - FAIL UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.75)...
+2019-09-17 18:37:09,322|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 16|web.click(locator) - executing click(locator)(${loc.filter.nonstop})
+2019-09-17 18:37:09,409|I|Thread-1|clicking '//input[@id='chkNonStop']'...
+2019-09-17 18:37:09,442|I|Thread-1|click target via JS, @id=chkNonStop
+2019-09-17 18:37:09,543|I|Thread-1|clicked -> true
+2019-09-17 18:37:09,548|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 16|web.click(locator) - PASS click via JS event
+2019-09-17 18:37:10,151|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 17|web.click(locator) - executing click(locator)(${loc.booknow.button})
+2019-09-17 18:37:10,262|I|Thread-1|clicking '(//button[@class='btn  book-bt-n'])[2]'...
+2019-09-17 18:37:10,297|I|Thread-1|click target via JS, @id=
+2019-09-17 18:37:12,219|I|Thread-1|clicked -> true
+2019-09-17 18:37:12,223|I|Thread-1|Makemytrip.20190917_183634.001|Scenario|Flight Booking|# 17|web.click(locator) - PASS click via JS event
+2019-09-17 18:37:12,519|I|Thread-1|[Makemytrip.20190917_183634.001|Scenario] saving test scenario
+2019-09-17 18:37:12,878|I|Thread-1|[20190917_183632] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Makemytrip\output\20190917_183632\Makemytrip.20190917_183634.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 36080 ms
+» Test Steps:     13
+» Error(s):       2
+
+
+
+2019-09-17 18:37:15,386|I|Thread-1|[20190917_183632] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 42716 ms
+» Iterations:     [1] total 1
+» Test Steps:     13
+» Passed:         11
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\Makemytrip\output\20190917_183632\Makemytrip.20190917_183634.001.xlsx
+
+
+
+2019-09-17 18:37:15,728|I|main|[20190917_183632] [C:\projects\Makemytrip\artifact\script\Makemytrip.xlsx] now completed
+2019-09-17 18:37:15,729|I|main|[20190917_183632] all execution thread(s) have terminated
+2019-09-17 18:37:15,731|I|main|[20190917_183632] test run completed in about 43 seconds
+2019-09-17 18:37:15,930|I|main|No predefined nexial-setup found
+2019-09-17 18:37:16,025|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-17 18:37:16,029|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-17 18:37:16,030|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-17 18:37:16,036|I|main|generating HTML output for this execution to C:\projects\Makemytrip\output\20190917_183632\execution-output.html
+2019-09-17 18:37:17,364|I|main|generating JUnit XML output for this execution to C:\projects\Makemytrip\output\20190917_183632\junit.xml
+2019-09-17 18:37:17,481|I|main|generated JUnit report for this execution: C:\projects\Makemytrip\output\20190917_183632\junit.xml
+2019-09-17 18:37:17,483|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-17 18:37:17,484|I|main|skipped email notification as configured
+2019-09-17 18:37:17,488|I|main|exiting Nexial...
+2019-09-17 18:37:17,489|I|main|shutdown starts...
+2019-09-17 18:37:17,493|I|main|Shutting down 'chrome' webdriver...
+2019-09-17 18:37:21,465|I|main|shutdown ends...
+2019-09-17 18:37:21,468|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 43 sec.
+| » Test Steps....: 13
+| » Passed........: 11
+| » Failed........: 2
+| » Success Rate..: 84.62%
+\----------------------------------------------------------nexial-core dev_0636-
+
+2019-09-17 18:37:21,471|E|main|failure found; success rate is 84.62%
+2019-09-17 18:37:21,474|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Makemytrip\output\20190917_183632
+NEXIAL_EXECUTION_HTML: C:\projects\Makemytrip\output\20190917_183632\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Makemytrip\output\20190917_183632\junit.xml
+NEXIAL_SUCCESS_RATE:   84.62%
+NEXIAL_EXIT_STATUS:    -13
